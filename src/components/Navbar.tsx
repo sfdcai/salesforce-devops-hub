@@ -7,6 +7,8 @@ const navLinks = [
   { label: "Features", to: "/features" },
   { label: "Comparisons", to: "/comparisons" },
   { label: "Pricing", to: "/pricing" },
+  { label: "Blog", to: "/blog" },
+  { label: "Sustainability", to: "/sustainability" },
   { label: "About", to: "/about" },
 ];
 
