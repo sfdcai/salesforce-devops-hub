@@ -1,5 +1,6 @@
 import { PageLayout } from "@/components/PageLayout";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Testimonials } from "@/components/Testimonials";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import {
