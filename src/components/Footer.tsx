@@ -5,6 +5,7 @@ const footerLinks = {
     { label: "Features", to: "/features" },
     { label: "Pricing", to: "/pricing" },
     { label: "Comparisons", to: "/comparisons" },
+    { label: "Case Studies", to: "/case-studies" },
   ],
   Resources: [
     { label: "Blog", to: "/blog" },
