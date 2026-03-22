@@ -8,6 +8,9 @@ import Features from "./pages/Features.tsx";
 import Pricing from "./pages/Pricing.tsx";
 import Comparisons from "./pages/Comparisons.tsx";
 import About from "./pages/About.tsx";
+import Blog from "./pages/Blog.tsx";
+import BlogPost from "./pages/BlogPost.tsx";
+import Sustainability from "./pages/Sustainability.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -24,6 +27,9 @@ const App = () => (
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/comparisons" element={<Comparisons />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/sustainability" element={<Sustainability />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

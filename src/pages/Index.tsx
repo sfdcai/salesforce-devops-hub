@@ -330,6 +330,9 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <Testimonials />
+
       {/* CTA */}
       <section className="py-24 md:py-32">
         <div className="container">

@@ -6,11 +6,13 @@ const footerLinks = {
     { label: "Pricing", to: "/pricing" },
     { label: "Comparisons", to: "/comparisons" },
   ],
-  Company: [
-    { label: "About", to: "/about" },
+  Resources: [
+    { label: "Blog", to: "/blog" },
+    { label: "Sustainability", to: "/sustainability" },
     { label: "Documentation", to: "https://sfdx.duckdns.org/docs", external: true },
   ],
-  Legal: [
+  Company: [
+    { label: "About", to: "/about" },
     { label: "Privacy", to: "/privacy" },
     { label: "Terms", to: "/terms" },
   ],
