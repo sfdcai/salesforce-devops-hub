@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sfdx-devops-hub.github.io/sitemap.xml
+Sitemap: https://sfdcai.github.io/salesforce-devops-hub/sitemap.xml
 
 # AI Crawler optimization
 User-agent: GPTBot
