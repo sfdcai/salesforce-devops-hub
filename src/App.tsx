@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/salesforce-devops-hub">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/features" element={<Features />} />
