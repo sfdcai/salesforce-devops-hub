@@ -3,35 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SFDX DevOps Platform — Salesforce Metadata Operations Made Simple</title>
-    <meta name="description" content="Deploy Salesforce metadata with surgical precision. Guided workflows for manifest generation, chunked retrieval, org comparison, delta deployment, and auto-retry." />
-    <meta name="keywords" content="Salesforce DevOps, SFDX, metadata deployment, org comparison, delta deploy, Salesforce CI/CD" />
-    <link rel="canonical" href="https://sfdx.duckdns.org" />
-    <meta property="og:title" content="SFDX DevOps Platform — Salesforce Metadata Operations" />
-    <meta property="og:description" content="Deploy Salesforce metadata with surgical precision. Guided workflows for retrieval, comparison, and deployment." />
+    <title>SFDX DevOps Hub | Professional Salesforce Metadata Operations & Deployments</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="SFDX DevOps Hub — Salesforce Metadata Operations Made Simple" />
+    <meta name="description" content="Master Salesforce DevOps with our precision toolkit. Generate manifests, compare orgs, perform delta deployments, and automate your release pipeline with SFDX DevOps Hub." />
+    <meta name="keywords" content="Salesforce DevOps, SFDX, metadata deployment, org comparison, delta deploy, Salesforce CI/CD, release management, package.xml generator" />
+    <meta name="author" content="SFDX DevOps Hub" />
+    <link rel="canonical" href="https://sfdx-devops-hub.github.io" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sfdx.duckdns.org" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SFDX DevOps Platform" />
-    <meta name="twitter:description" content="Deploy Salesforce metadata with surgical precision." />
+    <meta property="og:url" content="https://sfdx-devops-hub.github.io" />
+    <meta property="og:title" content="SFDX DevOps Hub — Salesforce Metadata Operations" />
+    <meta property="og:description" content="Deploy Salesforce metadata with surgical precision. Guided workflows for manifest generation, chunked retrieval, org comparison, and delta deployment." />
+    <meta property="og:image" content="https://sfdx-devops-hub.github.io/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sfdx-devops-hub.github.io" />
+    <meta property="twitter:title" content="SFDX DevOps Hub — Salesforce Metadata Operations" />
+    <meta property="twitter:description" content="Precision Salesforce DevOps toolkit. Manifest generation, metadata retrieval, and automated delta deployments." />
+    <meta property="twitter:image" content="https://sfdx-devops-hub.github.io/og-image.png" />
+
+    <!-- AI & Bot Optimization -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="ai-content-type" content="technical-documentation, software-service" />
+    
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "SFDX DevOps Platform",
-      "url": "https://sfdx.duckdns.org",
-      "applicationCategory": "DeveloperApplication",
+      "name": "SFDX DevOps Hub",
+      "url": "https://sfdx-devops-hub.github.io",
+      "logo": "https://sfdx-devops-hub.github.io/logo.png",
+      "image": "https://sfdx-devops-hub.github.io/og-image.png",
+      "description": "A high-performance web-based toolkit for Salesforce metadata operations. Features include manifest generation, chunked retrieval, org comparison, and automated delta deployments.",
+      "applicationCategory": "DevOpsApplication",
       "operatingSystem": "Web",
-      "description": "Web-based toolkit for Salesforce metadata operations with guided workflows.",
-      "offers": [
-        { "@type": "Offer", "price": "0", "priceCurrency": "USD", "name": "Free" },
-        { "@type": "Offer", "price": "49", "priceCurrency": "USD", "name": "Pro" }
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "SFDX DevOps Hub"
+      },
+      "featureList": [
+        "Manifest (package.xml) Generation",
+        "Chunked Metadata Retrieval",
+        "Org-to-Org Comparison",
+        "Delta Package Building",
+        "Automated Deployment with Auto-Retry",
+        "CLI Transparency"
       ]
     }
     </script>
+    
+    <!-- Preload Assets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Static Site Routing Helper for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </body>
 </html>
