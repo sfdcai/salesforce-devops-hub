@@ -10,7 +10,7 @@ const plans = [
     period: "forever",
     desc: "Get started with Salesforce DevOps fundamentals.",
     cta: "Start Free",
-    href: "https://sfdx.duckdns.org/register",
+    href: "https://sfdx.duckdns.org",
     highlight: false,
     features: [
       { label: "1 project", included: true },
