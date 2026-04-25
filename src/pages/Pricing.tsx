@@ -31,7 +31,7 @@ const plans = [
     period: "per month",
     desc: "For teams shipping regularly across multiple orgs.",
     cta: "Get Pro",
-    href: "https://sfdx.duckdns.org/register",
+    href: "https://sfdx.duckdns.org",
     highlight: true,
     features: [
       { label: "20 projects", included: true },
