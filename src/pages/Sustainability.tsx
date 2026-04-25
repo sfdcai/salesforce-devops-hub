@@ -295,7 +295,7 @@ export default function Sustainability() {
                 Start with the free tier. See how much compute you save in your first week.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://sfdx.duckdns.org/register" target="_blank" rel="noopener noreferrer">
+                <a href="https://sfdx.duckdns.org" target="_blank" rel="noopener noreferrer">
                   <Button variant="hero" size="xl">
                     Start Free <ArrowRight className="ml-1 h-5 w-5" />
                   </Button>
