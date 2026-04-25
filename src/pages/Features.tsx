@@ -159,7 +159,7 @@ export default function Features() {
           {/* CTA */}
           <ScrollReveal>
             <div className="text-center mt-16">
-              <a href="https://sfdx.duckdns.org/register" target="_blank" rel="noopener noreferrer">
+              <a href="https://sfdx.duckdns.org" target="_blank" rel="noopener noreferrer">
                 <Button variant="hero" size="xl">
                   Try It Free <ArrowRight className="ml-1 h-5 w-5" />
                 </Button>
