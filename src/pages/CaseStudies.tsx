@@ -302,7 +302,7 @@ export default function CaseStudies() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://sfdx.duckdns.org/register"
+                  href="https://sfdx.duckdns.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
